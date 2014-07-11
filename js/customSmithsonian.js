@@ -160,18 +160,25 @@ $(document).ready(function(){
 
     var bg = 'url('+img.attr('src')+')';
 
-    function deploy(count, response, statusTxt, xhr){
-      // var test=$("#smithsonian-"+count).css("background-image",bg);
-      $("#smithsonian-"+count).css("background-image",bg);
-        console.log(statusTxt);
-        if(count==14){
-          if(statusTxt=="success" || status==200 || status==304){
-              disappear();
-          }
-        }
-    }
+    // function deploy(count, response, statusTxt, xhr){
+    //   // var test=$("#smithsonian-"+count).css("background-image",bg);
+    //   $("#smithsonian-"+count).css("background-image",bg);
+    //     if(count==14){
+    //       if(statusTxt=="success" || statusTxt==200 || statusTxt==304 || statusTxt=="OK"){
+    //           disappear();
+    //       }
+    //     }
+    // }
 
-    img.load(deploy(pageCount));
+    img.load(function(response,status,xhr){
+         $("#smithsonian-"+count).css("background-image",bg);
+         if(count==14){
+          if(status=="success" || status=="notmodified" || status=="timeout"){
+            $("#smithsonian-"+count).css("background-image",bg);
+          }
+           disappear();
+         }
+    });
 
     pageCount++;
     }
