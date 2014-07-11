@@ -1,0 +1,549 @@
+@mixin font-mixin($font-color){
+	color: $font-color;
+	font-weight: bold;
+	margin-top: 38%;
+}
+@mixin font-standard{
+	color: white;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 35%;
+}
+html, body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif !important;
+	width: 100%;
+	background-color: #000;
+}
+
+.col-lg-offset-5 {
+	margin-left: 38% !important;
+}
+.caption-container{
+	position: absolute;
+	left: 0;
+	right: 0;
+	max-width: 438px;
+	min-width: 438px;
+	height: 438px;
+	margin: 0 auto;
+	margin-top: 7%;
+}
+.circle{
+	height: 438px;
+	width: 438px;
+	border-radius: 50%;
+	background-color: black;
+	background-color: rgba(0,0,0,0.8);
+	position: absolute;
+}
+.captions{
+	height: 438px;
+	width: 438px;
+	position: absolute;
+}
+nav{
+	position: fixed;
+	height: auto;
+	width: 12px;
+	right: 20px;
+	z-index: 9999;
+	margin-top: 10%;
+	a{
+		display: inline-block;
+		border-radius: 50%;
+		width: 13px;
+		height: 13px;
+		background-image: url("/images/nav-default.png");
+		background-repeat: no-repeat;
+		margin-bottom: 15px;
+		cursor: pointer;
+		opacity: .8;
+	}
+	.nav-active{
+		background-image: url("/images/nav-active.png");
+		background-repeat: no-repeat;
+	}
+}
+section{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	background-repeat: no-repeat;
+	-moz-background-size:100% 100%;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+
+
+@each $number in 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14{
+
+	#smithsonian-#{$number}{
+		background-image: url();
+	}
+}
+
+#smithsonian-1{
+	video{
+		position: absolute;
+		z-index: -1;
+		min-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto;
+		right: 0;
+		bottom: 0;
+	}
+	.smithsonian-logo img{
+		padding-top: 3%;
+	}
+	.header-caption{
+		text-align: center;
+		margin-top: 10%;
+		color: white;
+		h1{
+			&:nth-child(1){
+				margin-bottom: 0;
+			}
+			&:nth-child(2){
+				margin-top: 0;
+			}
+		}
+	}
+}
+#smithsonian-2{
+	// background-image: url("/images/desktop/section-2.png");
+	.header-caption{
+		text-align: center;
+		display: none;
+		h1{
+			@include font-mixin(#32d4a0);
+		}
+		p{
+			margin: 0 auto;
+			width: 229px;
+			color: white;
+			font-weight: 600;
+		}
+	}
+
+}
+#smithsonian-3{
+	// background-image: url("/images/desktop/section-3.png");
+	.caption-container{
+		@include font-standard;
+		p{
+			width: 250px;
+			margin: 0 auto;
+			font-size: 17px;
+		}
+	}
+}
+#smithsonian-4{
+	// background-image: url("/images/desktop/section-4.png");
+	.header-caption{
+		text-align: center;
+		display: none;
+		h1{
+			@include font-mixin(#32d4a0);
+		}
+		p{
+			margin: 0 auto;
+			width: 229px;
+			color: white;
+			font-weight: 600;
+		}
+	}
+}
+#smithsonian-5{
+	// background-image: url("/images/desktop/section-5.png");
+	.caption-container{
+		@include font-standard;
+		p{
+			width: 250px;
+			margin: 0 auto;
+			font-size: 17px;
+		}
+	}
+}
+#smithsonian-6{
+	// background-image: url("/images/desktop/section-6.png");
+	.header-caption{
+		text-align: center;
+		h1{
+			@include font-mixin(#e580ce);
+		}
+		p{
+			margin: 0 auto;
+			width: 229px;
+			color: white;
+			font-weight: 600;
+			span{
+				font-style: italic;
+			}
+		}
+	}
+}
+#smithsonian-7{
+	// background-image: url("/images/desktop/section-7.png");
+	.caption-container{
+		@include font-standard;
+		p{
+			width: 250px;
+			margin: 0 auto;
+			font-size: 17px;
+		}
+	}
+}
+#smithsonian-8{
+	// background-image: url("/images/desktop/section-8.png");
+	.header-caption{
+		text-align: center;
+		h1{
+			@include font-mixin(#ffd500);
+		}
+		p{
+			margin: 0 auto;
+			width: 229px;
+			color: white;
+			font-weight: 600;
+		}
+	}
+}
+#smithsonian-9{
+	// background-image: url("/images/desktop/section-9.png");
+	.caption-container{
+		@include font-standard;
+		p{
+			width: 250px;
+			margin: 0 auto;
+			font-size: 17px;
+			span{
+				font-style: italic;
+			}
+		}
+	}
+}
+#smithsonian-10{
+	// background-image: url("/images/desktop/section-10.png");
+	.header-caption{
+		text-align: center;
+		h1{
+			@include font-mixin(#32d4a0);
+		}
+		p{
+			margin: 0 auto;
+			width: 229px;
+			color: white;
+			font-weight: 600;
+		}
+	}
+}
+#smithsonian-11{
+	// background-image: url("/images/desktop/section-11.png");
+	.caption-container{
+		@include font-standard;
+		p{
+			width: 250px;
+			margin: 0 auto;
+			font-size: 17px;
+		}
+	}
+}
+#smithsonian-12{
+	// background-image: url("/images/desktop/section-12.png");
+	.header-caption{
+		text-align: center;
+		h1{
+			@include font-mixin(#e580ce);
+		}
+		p{
+			margin: 0 auto;
+			width: 229px;
+			color: white;
+			font-weight: 600;
+		}
+	}
+}
+#smithsonian-13{
+	// background-image: url("/images/desktop/section-13.png");
+	.caption-container{
+		@include font-standard;
+		p{
+			width: 250px;
+			margin: 0 auto;
+			font-size: 17px;
+		}
+	}
+}
+#smithsonian-14{
+	// background-image: url("/images/desktop/section-14.png");
+
+	.wonder-begins{
+		position: absolute;
+		margin-top: 10%;
+		color: white;
+		text-align: center;
+		margin-left: 10%;
+		p{
+			width: 219px;
+			span{
+				font-weight: 700;
+				color: #ffd500;
+				border-bottom: 2px solid #ffd500;
+			}
+		}
+	}
+	.smithsonian-bottom-logo{
+		background-image: url("/images/smithsonian-bottom-logo.png");
+		background-repeat: no-repeat;
+		width: 274px;
+		height: 72px;
+		position: absolute;
+		margin-left: 50px;
+	}
+}
+#fixed-footer{
+	background-image: url("/images/footer-dashes.png");
+	background-repeat: repeat-x;
+	text-align: center;
+	background-color: black;
+	position: fixed;
+	bottom: 0;
+	color: #ffe76e;
+	height: 73px;
+	width: 100%;
+	display: none;
+	h4{
+		vertical-align: middle;
+		padding-top: 20px;
+		span{
+			color: #ffd500;
+			font-weight: bold;
+		}
+	}
+}
+.mobile{
+	display: none;
+}
+@media screen and (max-width: 991px){
+/*	section{
+		-moz-background-position: center center;
+		-webkit-background-position: center center;
+		-o-background-position: center center;
+		-moz-background-attachment: fixed;
+		-webkit-background-attachment: fixed;
+		-o-background-attachment: fixed;
+		background-attachment: fixed;
+	}*/
+}
+@media screen and (max-width: 767px){
+	nav{
+		margin-top: 19% !important;
+	}
+	video{
+		display: none;
+	}
+	.mobile{
+		display: block;
+		padding-top: 105px;
+	}
+	.desktop-tablet{
+		display: none;
+	}
+	.smithsonian-logo img{
+		width: 181px;
+		padding-top: 85px !important;
+	}
+	.circle{
+		width: 294px !important;
+		height: 294px;
+		margin: 0 auto;
+		position: initial !important;
+		background-color: rgba(0,0,0,0.6);
+		margin-top: 6%;
+	}
+	.header-caption h1{
+		margin-top: 17% !important;
+		padding-top: 105px;
+	}
+	.caption-container{
+		max-width: 100%;
+		min-width: 100%;
+	}
+	section{
+		-moz-background-size:100% 100% !important;
+		-webkit-background-size:100% 100% !important;
+		background-size:100% 100% !important;
+		background-attachment: scroll !important;
+	}
+	@each $number in 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14{
+
+	#smithsonian-#{$number}.lazy-background.inview{
+		background-image: url("/images/mobile/section-#{$number}.png") !important;
+	}
+}
+	#smithsonian-1{
+		background-image: url("/images/mobile/section-1.png");
+	}
+	#smithsonian-2{
+		background-image: url("/images/mobile/section-2.png");
+	}
+	#smithsonian-3{
+		background-image: url("/images/mobile/section-3.png");
+		p{
+			font-size: 32px;
+			width: 295px !important;
+			padding-top: 20%;
+		}
+	}
+	#smithsonian-4{
+		background-image: url("/images/mobile/section-4.png");
+	}
+	#smithsonian-5{
+		background-image: url("/images/mobile/section-5.png");
+		p{
+			font-size: 32px;
+			width: 295px !important;
+			padding-top: 20%;
+		}
+	}
+	#smithsonian-6{
+		background-image: url("/images/mobile/section-6.png");
+	}
+	#smithsonian-7{
+		background-image: url("/images/mobile/section-7.png");
+		p{
+			font-size: 32px;
+			width: 295px !important;
+			padding-top: 20%;
+		}
+	}
+	#smithsonian-8{
+		background-image: url("/images/mobile/section-8.png");
+	}
+	#smithsonian-9{
+		background-image: url("/images/mobile/section-9.png");
+		p{
+			font-size: 32px;
+			width: 295px !important;
+			padding-top: 20%;
+		}
+	}
+	#smithsonian-10{
+		background-image: url("/images/mobile/section-10.png");
+	}
+	#smithsonian-11{
+		background-image: url("/images/mobile/section-11.png");
+		p{
+			font-size: 32px;
+			width: 295px !important;
+			padding-top: 20%;
+		}
+	}
+	#smithsonian-12{
+		background-image: url("/images/mobile/section-12.png");
+	}
+	#smithsonian-13{
+		background-image: url("/images/mobile/section-13.png");
+		p{
+			font-size: 32px;
+			width: 295px !important;
+			padding-top: 20%;
+		}
+	}
+	#smithsonian-14{
+		background-image: url("/images/mobile/section-14.png");
+		.wonder-begins{
+			padding-top: 170px;
+			position: initial !important;
+			margin-top: initial !important;
+			margin-left: initial !important;
+			h1, h4{
+				margin: 0;
+				padding: 0;
+				position: initial;
+			}
+			p{
+				width: 252px;
+				margin: 0 auto;
+				font-size: 18;
+				margin-top: 30px;
+			}
+		}
+		.smithsonian-bottom-logo{
+			margin-left: auto !important;
+			background-image: url("/images/smithsonian-bottom-logo-mobile.png");
+			height: 34px;
+			width: 128px;
+			margin-top: 145px !important;
+			position: initial !important;
+		}
+	}
+}
+
+
+/******************
+	Preloader
+*****************/
+
+.preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #000;
+	z-index: 9999;
+	.spinner {
+		font-weight: 300;
+		color: #fff;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		right: 0;
+		width: 70px;
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		div {
+			width: 18px;
+			height: 18px;
+			background-color: #fff;
+			border-radius: 100%;
+			display: inline-block;
+			-webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+			animation: bouncedelay 1.4s infinite ease-in-out;
+			-webkit-animation-fill-mode: both;
+			animation-fill-mode: both;
+		}
+		.bounce1 {
+			-webkit-animation-delay: -0.32s;
+			animation-delay: -0.32s;
+		}
+		.bounce2 {
+			-webkit-animation-delay: -0.16s;
+			animation-delay: -0.16s;
+		}
+	}
+}
+
+
+
+@-webkit-keyframes bouncedelay {
+	0%, 80%, 100% { -webkit-transform: scale(0.0) }
+	40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes bouncedelay {
+	0%, 80%, 100% { 
+		transform: scale(0.0);
+		-webkit-transform: scale(0.0);
+	} 40% { 
+		transform: scale(1.0);
+		-webkit-transform: scale(1.0);
+	}
+}

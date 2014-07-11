@@ -1,0 +1,785 @@
+/* line 12, ../sass/index.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif !important;
+  width: 100%;
+  background-color: #000;
+}
+
+/* line 20, ../sass/index.scss */
+.col-lg-offset-5 {
+  margin-left: 38% !important;
+}
+
+/* line 23, ../sass/index.scss */
+.caption-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  max-width: 438px;
+  min-width: 438px;
+  height: 438px;
+  margin: 0 auto;
+  margin-top: 7%;
+}
+
+/* line 33, ../sass/index.scss */
+.circle {
+  height: 438px;
+  width: 438px;
+  border-radius: 50%;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+}
+
+/* line 41, ../sass/index.scss */
+.captions {
+  height: 438px;
+  width: 438px;
+  position: absolute;
+}
+
+/* line 46, ../sass/index.scss */
+nav {
+  position: fixed;
+  height: auto;
+  width: 12px;
+  right: 20px;
+  z-index: 9999;
+  margin-top: 10%;
+}
+/* line 53, ../sass/index.scss */
+nav a {
+  display: inline-block;
+  border-radius: 50%;
+  width: 13px;
+  height: 13px;
+  background-image: url("/images/nav-default.png");
+  background-repeat: no-repeat;
+  margin-bottom: 15px;
+  cursor: pointer;
+  opacity: .8;
+}
+/* line 64, ../sass/index.scss */
+nav .nav-active {
+  background-image: url("/images/nav-active.png");
+  background-repeat: no-repeat;
+}
+
+/* line 69, ../sass/index.scss */
+section {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  background-repeat: no-repeat;
+  -moz-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+/* line 84, ../sass/index.scss */
+#smithsonian-2 {
+  background-image: url();
+}
+
+/* line 84, ../sass/index.scss */
+#smithsonian-3 {
+  background-image: url();
+}
+
+/* line 84, ../sass/index.scss */
+#smithsonian-4 {
+  background-image: url();
+}
+
+/* line 84, ../sass/index.scss */
+#smithsonian-5 {
+  background-image: url();
+}
+
+/* line 84, ../sass/index.scss */
+#smithsonian-6 {
+  background-image: url();
+}
+
+/* line 84, ../sass/index.scss */
+#smithsonian-7 {
+  background-image: url();
+}
+
+/* line 84, ../sass/index.scss */
+#smithsonian-8 {
+  background-image: url();
+}
+
+/* line 84, ../sass/index.scss */
+#smithsonian-9 {
+  background-image: url();
+}
+
+/* line 84, ../sass/index.scss */
+#smithsonian-10 {
+  background-image: url();
+}
+
+/* line 84, ../sass/index.scss */
+#smithsonian-11 {
+  background-image: url();
+}
+
+/* line 84, ../sass/index.scss */
+#smithsonian-12 {
+  background-image: url();
+}
+
+/* line 84, ../sass/index.scss */
+#smithsonian-13 {
+  background-image: url();
+}
+
+/* line 84, ../sass/index.scss */
+#smithsonian-14 {
+  background-image: url();
+}
+
+/* line 90, ../sass/index.scss */
+#smithsonian-1 video {
+  position: absolute;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  right: 0;
+  bottom: 0;
+}
+/* line 100, ../sass/index.scss */
+#smithsonian-1 .smithsonian-logo img {
+  padding-top: 3%;
+}
+/* line 103, ../sass/index.scss */
+#smithsonian-1 .header-caption {
+  text-align: center;
+  margin-top: 10%;
+  color: white;
+}
+/* line 108, ../sass/index.scss */
+#smithsonian-1 .header-caption h1:nth-child(1) {
+  margin-bottom: 0;
+}
+/* line 111, ../sass/index.scss */
+#smithsonian-1 .header-caption h1:nth-child(2) {
+  margin-top: 0;
+}
+
+/* line 119, ../sass/index.scss */
+#smithsonian-2 .header-caption {
+  text-align: center;
+  display: none;
+}
+/* line 122, ../sass/index.scss */
+#smithsonian-2 .header-caption h1 {
+  color: #32d4a0;
+  font-weight: bold;
+  margin-top: 38%;
+}
+/* line 125, ../sass/index.scss */
+#smithsonian-2 .header-caption p {
+  margin: 0 auto;
+  width: 229px;
+  color: white;
+  font-weight: 600;
+}
+
+/* line 136, ../sass/index.scss */
+#smithsonian-3 .caption-container {
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 35%;
+}
+/* line 138, ../sass/index.scss */
+#smithsonian-3 .caption-container p {
+  width: 250px;
+  margin: 0 auto;
+  font-size: 17px;
+}
+
+/* line 147, ../sass/index.scss */
+#smithsonian-4 .header-caption {
+  text-align: center;
+  display: none;
+}
+/* line 150, ../sass/index.scss */
+#smithsonian-4 .header-caption h1 {
+  color: #32d4a0;
+  font-weight: bold;
+  margin-top: 38%;
+}
+/* line 153, ../sass/index.scss */
+#smithsonian-4 .header-caption p {
+  margin: 0 auto;
+  width: 229px;
+  color: white;
+  font-weight: 600;
+}
+
+/* line 163, ../sass/index.scss */
+#smithsonian-5 .caption-container {
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 35%;
+}
+/* line 165, ../sass/index.scss */
+#smithsonian-5 .caption-container p {
+  width: 250px;
+  margin: 0 auto;
+  font-size: 17px;
+}
+
+/* line 174, ../sass/index.scss */
+#smithsonian-6 .header-caption {
+  text-align: center;
+}
+/* line 176, ../sass/index.scss */
+#smithsonian-6 .header-caption h1 {
+  color: #e580ce;
+  font-weight: bold;
+  margin-top: 38%;
+}
+/* line 179, ../sass/index.scss */
+#smithsonian-6 .header-caption p {
+  margin: 0 auto;
+  width: 229px;
+  color: white;
+  font-weight: 600;
+}
+/* line 184, ../sass/index.scss */
+#smithsonian-6 .header-caption p span {
+  font-style: italic;
+}
+
+/* line 192, ../sass/index.scss */
+#smithsonian-7 .caption-container {
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 35%;
+}
+/* line 194, ../sass/index.scss */
+#smithsonian-7 .caption-container p {
+  width: 250px;
+  margin: 0 auto;
+  font-size: 17px;
+}
+
+/* line 203, ../sass/index.scss */
+#smithsonian-8 .header-caption {
+  text-align: center;
+}
+/* line 205, ../sass/index.scss */
+#smithsonian-8 .header-caption h1 {
+  color: #ffd500;
+  font-weight: bold;
+  margin-top: 38%;
+}
+/* line 208, ../sass/index.scss */
+#smithsonian-8 .header-caption p {
+  margin: 0 auto;
+  width: 229px;
+  color: white;
+  font-weight: 600;
+}
+
+/* line 218, ../sass/index.scss */
+#smithsonian-9 .caption-container {
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 35%;
+}
+/* line 220, ../sass/index.scss */
+#smithsonian-9 .caption-container p {
+  width: 250px;
+  margin: 0 auto;
+  font-size: 17px;
+}
+/* line 224, ../sass/index.scss */
+#smithsonian-9 .caption-container p span {
+  font-style: italic;
+}
+
+/* line 232, ../sass/index.scss */
+#smithsonian-10 .header-caption {
+  text-align: center;
+}
+/* line 234, ../sass/index.scss */
+#smithsonian-10 .header-caption h1 {
+  color: #32d4a0;
+  font-weight: bold;
+  margin-top: 38%;
+}
+/* line 237, ../sass/index.scss */
+#smithsonian-10 .header-caption p {
+  margin: 0 auto;
+  width: 229px;
+  color: white;
+  font-weight: 600;
+}
+
+/* line 247, ../sass/index.scss */
+#smithsonian-11 .caption-container {
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 35%;
+}
+/* line 249, ../sass/index.scss */
+#smithsonian-11 .caption-container p {
+  width: 250px;
+  margin: 0 auto;
+  font-size: 17px;
+}
+
+/* line 258, ../sass/index.scss */
+#smithsonian-12 .header-caption {
+  text-align: center;
+}
+/* line 260, ../sass/index.scss */
+#smithsonian-12 .header-caption h1 {
+  color: #e580ce;
+  font-weight: bold;
+  margin-top: 38%;
+}
+/* line 263, ../sass/index.scss */
+#smithsonian-12 .header-caption p {
+  margin: 0 auto;
+  width: 229px;
+  color: white;
+  font-weight: 600;
+}
+
+/* line 273, ../sass/index.scss */
+#smithsonian-13 .caption-container {
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 35%;
+}
+/* line 275, ../sass/index.scss */
+#smithsonian-13 .caption-container p {
+  width: 250px;
+  margin: 0 auto;
+  font-size: 17px;
+}
+
+/* line 285, ../sass/index.scss */
+#smithsonian-14 .wonder-begins {
+  position: absolute;
+  margin-top: 10%;
+  color: white;
+  text-align: center;
+  margin-left: 10%;
+}
+/* line 291, ../sass/index.scss */
+#smithsonian-14 .wonder-begins p {
+  width: 219px;
+}
+/* line 293, ../sass/index.scss */
+#smithsonian-14 .wonder-begins p span {
+  font-weight: 700;
+  color: #ffd500;
+  border-bottom: 2px solid #ffd500;
+}
+/* line 300, ../sass/index.scss */
+#smithsonian-14 .smithsonian-bottom-logo {
+  background-image: url("/images/smithsonian-bottom-logo.png");
+  background-repeat: no-repeat;
+  width: 274px;
+  height: 72px;
+  position: absolute;
+  margin-left: 50px;
+}
+
+/* line 309, ../sass/index.scss */
+#fixed-footer {
+  background-image: url("/images/footer-dashes.png");
+  background-repeat: repeat-x;
+  text-align: center;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  color: #ffe76e;
+  height: 73px;
+  width: 100%;
+  display: none;
+}
+/* line 320, ../sass/index.scss */
+#fixed-footer h4 {
+  vertical-align: middle;
+  padding-top: 20px;
+}
+/* line 323, ../sass/index.scss */
+#fixed-footer h4 span {
+  color: #ffd500;
+  font-weight: bold;
+}
+
+/* line 329, ../sass/index.scss */
+.mobile {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  /*	section{
+  		-moz-background-position: center center;
+  		-webkit-background-position: center center;
+  		-o-background-position: center center;
+  		-moz-background-attachment: fixed;
+  		-webkit-background-attachment: fixed;
+  		-o-background-attachment: fixed;
+  		background-attachment: fixed;
+  	}*/
+}
+@media screen and (max-width: 767px) {
+  /* line 344, ../sass/index.scss */
+  nav {
+    margin-top: 19% !important;
+  }
+
+  /* line 347, ../sass/index.scss */
+  video {
+    display: none;
+  }
+
+  /* line 350, ../sass/index.scss */
+  .mobile {
+    display: block;
+    padding-top: 105px;
+  }
+
+  /* line 354, ../sass/index.scss */
+  .desktop-tablet {
+    display: none;
+  }
+
+  /* line 357, ../sass/index.scss */
+  .smithsonian-logo img {
+    width: 181px;
+    padding-top: 85px !important;
+  }
+
+  /* line 361, ../sass/index.scss */
+  .circle {
+    width: 294px !important;
+    height: 294px;
+    margin: 0 auto;
+    position: initial !important;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 6%;
+  }
+
+  /* line 369, ../sass/index.scss */
+  .header-caption h1 {
+    margin-top: 17% !important;
+    padding-top: 105px;
+  }
+
+  /* line 373, ../sass/index.scss */
+  .caption-container {
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+  /* line 377, ../sass/index.scss */
+  section {
+    -moz-background-size: 100% 100% !important;
+    -webkit-background-size: 100% 100% !important;
+    background-size: 100% 100% !important;
+    background-attachment: scroll !important;
+  }
+
+  /* line 385, ../sass/index.scss */
+  #smithsonian-1.lazy-background.inview {
+    background-image: url("/images/mobile/section-1.png") !important;
+  }
+
+  /* line 385, ../sass/index.scss */
+  #smithsonian-2.lazy-background.inview {
+    background-image: url("/images/mobile/section-2.png") !important;
+  }
+
+  /* line 385, ../sass/index.scss */
+  #smithsonian-3.lazy-background.inview {
+    background-image: url("/images/mobile/section-3.png") !important;
+  }
+
+  /* line 385, ../sass/index.scss */
+  #smithsonian-4.lazy-background.inview {
+    background-image: url("/images/mobile/section-4.png") !important;
+  }
+
+  /* line 385, ../sass/index.scss */
+  #smithsonian-5.lazy-background.inview {
+    background-image: url("/images/mobile/section-5.png") !important;
+  }
+
+  /* line 385, ../sass/index.scss */
+  #smithsonian-6.lazy-background.inview {
+    background-image: url("/images/mobile/section-6.png") !important;
+  }
+
+  /* line 385, ../sass/index.scss */
+  #smithsonian-7.lazy-background.inview {
+    background-image: url("/images/mobile/section-7.png") !important;
+  }
+
+  /* line 385, ../sass/index.scss */
+  #smithsonian-8.lazy-background.inview {
+    background-image: url("/images/mobile/section-8.png") !important;
+  }
+
+  /* line 385, ../sass/index.scss */
+  #smithsonian-9.lazy-background.inview {
+    background-image: url("/images/mobile/section-9.png") !important;
+  }
+
+  /* line 385, ../sass/index.scss */
+  #smithsonian-10.lazy-background.inview {
+    background-image: url("/images/mobile/section-10.png") !important;
+  }
+
+  /* line 385, ../sass/index.scss */
+  #smithsonian-11.lazy-background.inview {
+    background-image: url("/images/mobile/section-11.png") !important;
+  }
+
+  /* line 385, ../sass/index.scss */
+  #smithsonian-12.lazy-background.inview {
+    background-image: url("/images/mobile/section-12.png") !important;
+  }
+
+  /* line 385, ../sass/index.scss */
+  #smithsonian-13.lazy-background.inview {
+    background-image: url("/images/mobile/section-13.png") !important;
+  }
+
+  /* line 385, ../sass/index.scss */
+  #smithsonian-14.lazy-background.inview {
+    background-image: url("/images/mobile/section-14.png") !important;
+  }
+
+  /* line 389, ../sass/index.scss */
+  #smithsonian-1 {
+    background-image: url("/images/mobile/section-1.png");
+  }
+
+  /* line 392, ../sass/index.scss */
+  #smithsonian-2 {
+    background-image: url("/images/mobile/section-2.png");
+  }
+
+  /* line 395, ../sass/index.scss */
+  #smithsonian-3 {
+    background-image: url("/images/mobile/section-3.png");
+  }
+  /* line 397, ../sass/index.scss */
+  #smithsonian-3 p {
+    font-size: 32px;
+    width: 295px !important;
+    padding-top: 20%;
+  }
+
+  /* line 403, ../sass/index.scss */
+  #smithsonian-4 {
+    background-image: url("/images/mobile/section-4.png");
+  }
+
+  /* line 406, ../sass/index.scss */
+  #smithsonian-5 {
+    background-image: url("/images/mobile/section-5.png");
+  }
+  /* line 408, ../sass/index.scss */
+  #smithsonian-5 p {
+    font-size: 32px;
+    width: 295px !important;
+    padding-top: 20%;
+  }
+
+  /* line 414, ../sass/index.scss */
+  #smithsonian-6 {
+    background-image: url("/images/mobile/section-6.png");
+  }
+
+  /* line 417, ../sass/index.scss */
+  #smithsonian-7 {
+    background-image: url("/images/mobile/section-7.png");
+  }
+  /* line 419, ../sass/index.scss */
+  #smithsonian-7 p {
+    font-size: 32px;
+    width: 295px !important;
+    padding-top: 20%;
+  }
+
+  /* line 425, ../sass/index.scss */
+  #smithsonian-8 {
+    background-image: url("/images/mobile/section-8.png");
+  }
+
+  /* line 428, ../sass/index.scss */
+  #smithsonian-9 {
+    background-image: url("/images/mobile/section-9.png");
+  }
+  /* line 430, ../sass/index.scss */
+  #smithsonian-9 p {
+    font-size: 32px;
+    width: 295px !important;
+    padding-top: 20%;
+  }
+
+  /* line 436, ../sass/index.scss */
+  #smithsonian-10 {
+    background-image: url("/images/mobile/section-10.png");
+  }
+
+  /* line 439, ../sass/index.scss */
+  #smithsonian-11 {
+    background-image: url("/images/mobile/section-11.png");
+  }
+  /* line 441, ../sass/index.scss */
+  #smithsonian-11 p {
+    font-size: 32px;
+    width: 295px !important;
+    padding-top: 20%;
+  }
+
+  /* line 447, ../sass/index.scss */
+  #smithsonian-12 {
+    background-image: url("/images/mobile/section-12.png");
+  }
+
+  /* line 450, ../sass/index.scss */
+  #smithsonian-13 {
+    background-image: url("/images/mobile/section-13.png");
+  }
+  /* line 452, ../sass/index.scss */
+  #smithsonian-13 p {
+    font-size: 32px;
+    width: 295px !important;
+    padding-top: 20%;
+  }
+
+  /* line 458, ../sass/index.scss */
+  #smithsonian-14 {
+    background-image: url("/images/mobile/section-14.png");
+  }
+  /* line 460, ../sass/index.scss */
+  #smithsonian-14 .wonder-begins {
+    padding-top: 170px;
+    position: initial !important;
+    margin-top: initial !important;
+    margin-left: initial !important;
+  }
+  /* line 465, ../sass/index.scss */
+  #smithsonian-14 .wonder-begins h1, #smithsonian-14 .wonder-begins h4 {
+    margin: 0;
+    padding: 0;
+    position: initial;
+  }
+  /* line 470, ../sass/index.scss */
+  #smithsonian-14 .wonder-begins p {
+    width: 252px;
+    margin: 0 auto;
+    font-size: 18;
+    margin-top: 30px;
+  }
+  /* line 477, ../sass/index.scss */
+  #smithsonian-14 .smithsonian-bottom-logo {
+    margin-left: auto !important;
+    background-image: url("/images/smithsonian-bottom-logo-mobile.png");
+    height: 34px;
+    width: 128px;
+    margin-top: 145px !important;
+    position: initial !important;
+  }
+}
+/******************
+	Preloader
+*****************/
+/* line 493, ../sass/index.scss */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+  z-index: 9999;
+}
+/* line 501, ../sass/index.scss */
+.preloader .spinner {
+  font-weight: 300;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 0;
+  width: 70px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/* line 512, ../sass/index.scss */
+.preloader .spinner div {
+  width: 18px;
+  height: 18px;
+  background-color: #fff;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+  animation: bouncedelay 1.4s infinite ease-in-out;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+/* line 523, ../sass/index.scss */
+.preloader .spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+/* line 527, ../sass/index.scss */
+.preloader .spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes bouncedelay {
+  /* line 537, ../sass/index.scss */
+  0%, 80%, 100% {
+    -webkit-transform: scale(0);
+  }
+
+  /* line 538, ../sass/index.scss */
+  40% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes bouncedelay {
+  /* line 542, ../sass/index.scss */
+  0%, 80%, 100% {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+  }
+
+  /* line 545, ../sass/index.scss */
+  40% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
