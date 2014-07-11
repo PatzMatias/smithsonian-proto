@@ -160,25 +160,19 @@ $(document).ready(function(){
 
     var bg = 'url('+img.attr('src')+')';
 
-    // function deploy(count, response, statusTxt, xhr){
-    //   // var test=$("#smithsonian-"+count).css("background-image",bg);
-    //   $("#smithsonian-"+count).css("background-image",bg);
-    //     if(count==14){
-    //       if(statusTxt=="success" || statusTxt==200 || statusTxt==304 || statusTxt=="OK"){
-    //           disappear();
-    //       }
-    //     }
-    // }
-
-    img.load(function(response,status,xhr){
-         $("#smithsonian-"+count).css("background-image",bg);
-         if(count==14){
+    function deploy(response, status, xhr, count){
+        if(count==14){
+          $("#smithsonian-"+count).css("background-image",bg);
           if(status=="success" || status=="notmodified" || status=="timeout"){
-            $("#smithsonian-"+count).css("background-image",bg);
+              disappear();
           }
-           disappear();
-         }
-    });
+        }
+        else{
+           $("#smithsonian-"+count).css("background-image",bg);
+        }
+    }
+
+    img.load(deploy(response, status, xhr, pageCount));
 
     pageCount++;
     }
