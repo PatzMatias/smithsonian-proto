@@ -164,13 +164,15 @@ $(document).ready(function(){
       // var test=$("#smithsonian-"+count).css("background-image",bg);
       $("#smithsonian-"+count).css("background-image",bg);
         // console.log(test);
+        if(count==14){
+              disappear();
+        }
     }
 
     img.load(deploy(pageCount));
 
     pageCount++;
     }
-    disappear();
   }
 
 preloader();
