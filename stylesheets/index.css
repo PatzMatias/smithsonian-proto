@@ -56,7 +56,7 @@ nav a {
   border-radius: 50%;
   width: 13px;
   height: 13px;
-  background-image: url("/images/nav-default.png");
+  background-image: url("images/nav-default.png");
   background-repeat: no-repeat;
   margin-bottom: 15px;
   cursor: pointer;
@@ -64,7 +64,7 @@ nav a {
 }
 /* line 64, ../sass/index.scss */
 nav .nav-active {
-  background-image: url("/images/nav-active.png");
+  background-image: url("images/nav-active.png");
   background-repeat: no-repeat;
 }
 
@@ -398,7 +398,7 @@ section {
 }
 /* line 300, ../sass/index.scss */
 #smithsonian-14 .smithsonian-bottom-logo {
-  background-image: url("/images/smithsonian-bottom-logo.png");
+  background-image: url("images/smithsonian-bottom-logo.png");
   background-repeat: no-repeat;
   width: 274px;
   height: 72px;
@@ -408,7 +408,7 @@ section {
 
 /* line 309, ../sass/index.scss */
 #fixed-footer {
-  background-image: url("/images/footer-dashes.png");
+  background-image: url("images/footer-dashes.png");
   background-repeat: repeat-x;
   text-align: center;
   background-color: black;
@@ -506,82 +506,82 @@ section {
 
   /* line 385, ../sass/index.scss */
   #smithsonian-1.lazy-background.inview {
-    background-image: url("/images/mobile/section-1.png") !important;
+    background-image: url("images/mobile/section-1.png") !important;
   }
 
   /* line 385, ../sass/index.scss */
   #smithsonian-2.lazy-background.inview {
-    background-image: url("/images/mobile/section-2.png") !important;
+    background-image: url("images/mobile/section-2.png") !important;
   }
 
   /* line 385, ../sass/index.scss */
   #smithsonian-3.lazy-background.inview {
-    background-image: url("/images/mobile/section-3.png") !important;
+    background-image: url("images/mobile/section-3.png") !important;
   }
 
   /* line 385, ../sass/index.scss */
   #smithsonian-4.lazy-background.inview {
-    background-image: url("/images/mobile/section-4.png") !important;
+    background-image: url("images/mobile/section-4.png") !important;
   }
 
   /* line 385, ../sass/index.scss */
   #smithsonian-5.lazy-background.inview {
-    background-image: url("/images/mobile/section-5.png") !important;
+    background-image: url("images/mobile/section-5.png") !important;
   }
 
   /* line 385, ../sass/index.scss */
   #smithsonian-6.lazy-background.inview {
-    background-image: url("/images/mobile/section-6.png") !important;
+    background-image: url("images/mobile/section-6.png") !important;
   }
 
   /* line 385, ../sass/index.scss */
   #smithsonian-7.lazy-background.inview {
-    background-image: url("/images/mobile/section-7.png") !important;
+    background-image: url("images/mobile/section-7.png") !important;
   }
 
   /* line 385, ../sass/index.scss */
   #smithsonian-8.lazy-background.inview {
-    background-image: url("/images/mobile/section-8.png") !important;
+    background-image: url("images/mobile/section-8.png") !important;
   }
 
   /* line 385, ../sass/index.scss */
   #smithsonian-9.lazy-background.inview {
-    background-image: url("/images/mobile/section-9.png") !important;
+    background-image: url("images/mobile/section-9.png") !important;
   }
 
   /* line 385, ../sass/index.scss */
   #smithsonian-10.lazy-background.inview {
-    background-image: url("/images/mobile/section-10.png") !important;
+    background-image: url("images/mobile/section-10.png") !important;
   }
 
   /* line 385, ../sass/index.scss */
   #smithsonian-11.lazy-background.inview {
-    background-image: url("/images/mobile/section-11.png") !important;
+    background-image: url("images/mobile/section-11.png") !important;
   }
 
   /* line 385, ../sass/index.scss */
   #smithsonian-12.lazy-background.inview {
-    background-image: url("/images/mobile/section-12.png") !important;
+    background-image: url("images/mobile/section-12.png") !important;
   }
 
   /* line 385, ../sass/index.scss */
   #smithsonian-13.lazy-background.inview {
-    background-image: url("/images/mobile/section-13.png") !important;
+    background-image: url("images/mobile/section-13.png") !important;
   }
 
   /* line 385, ../sass/index.scss */
   #smithsonian-14.lazy-background.inview {
-    background-image: url("/images/mobile/section-14.png") !important;
+    background-image: url("images/mobile/section-14.png") !important;
   }
 
   /* line 389, ../sass/index.scss */
   #smithsonian-1 {
-    background-image: url("/images/mobile/section-1.png");
+    background-image: url("images/mobile/section-1.png");
   }
 
   /* line 392, ../sass/index.scss */
   #smithsonian-2 {
-    background-image: url("/images/mobile/section-2.png");
+    background-image: url("images/mobile/section-2.png");
   }
 
   /* line 395, ../sass/index.scss */
@@ -597,12 +597,12 @@ section {
 
   /* line 403, ../sass/index.scss */
   #smithsonian-4 {
-    background-image: url("/images/mobile/section-4.png");
+    background-image: url("images/mobile/section-4.png");
   }
 
   /* line 406, ../sass/index.scss */
   #smithsonian-5 {
-    background-image: url("/images/mobile/section-5.png");
+    background-image: url("images/mobile/section-5.png");
   }
   /* line 408, ../sass/index.scss */
   #smithsonian-5 p {
@@ -613,12 +613,12 @@ section {
 
   /* line 414, ../sass/index.scss */
   #smithsonian-6 {
-    background-image: url("/images/mobile/section-6.png");
+    background-image: url("images/mobile/section-6.png");
   }
 
   /* line 417, ../sass/index.scss */
   #smithsonian-7 {
-    background-image: url("/images/mobile/section-7.png");
+    background-image: url("images/mobile/section-7.png");
   }
   /* line 419, ../sass/index.scss */
   #smithsonian-7 p {
@@ -629,12 +629,12 @@ section {
 
   /* line 425, ../sass/index.scss */
   #smithsonian-8 {
-    background-image: url("/images/mobile/section-8.png");
+    background-image: url("images/mobile/section-8.png");
   }
 
   /* line 428, ../sass/index.scss */
   #smithsonian-9 {
-    background-image: url("/images/mobile/section-9.png");
+    background-image: url("images/mobile/section-9.png");
   }
   /* line 430, ../sass/index.scss */
   #smithsonian-9 p {
@@ -645,12 +645,12 @@ section {
 
   /* line 436, ../sass/index.scss */
   #smithsonian-10 {
-    background-image: url("/images/mobile/section-10.png");
+    background-image: url("images/mobile/section-10.png");
   }
 
   /* line 439, ../sass/index.scss */
   #smithsonian-11 {
-    background-image: url("/images/mobile/section-11.png");
+    background-image: url("images/mobile/section-11.png");
   }
   /* line 441, ../sass/index.scss */
   #smithsonian-11 p {
@@ -661,12 +661,12 @@ section {
 
   /* line 447, ../sass/index.scss */
   #smithsonian-12 {
-    background-image: url("/images/mobile/section-12.png");
+    background-image: url("images/mobile/section-12.png");
   }
 
   /* line 450, ../sass/index.scss */
   #smithsonian-13 {
-    background-image: url("/images/mobile/section-13.png");
+    background-image: url("images/mobile/section-13.png");
   }
   /* line 452, ../sass/index.scss */
   #smithsonian-13 p {
@@ -677,7 +677,7 @@ section {
 
   /* line 458, ../sass/index.scss */
   #smithsonian-14 {
-    background-image: url("/images/mobile/section-14.png");
+    background-image: url("images/mobile/section-14.png");
   }
   /* line 460, ../sass/index.scss */
   #smithsonian-14 .wonder-begins {
@@ -702,7 +702,7 @@ section {
   /* line 477, ../sass/index.scss */
   #smithsonian-14 .smithsonian-bottom-logo {
     margin-left: auto !important;
-    background-image: url("/images/smithsonian-bottom-logo-mobile.png");
+    background-image: url("images/smithsonian-bottom-logo-mobile.png");
     height: 34px;
     width: 128px;
     margin-top: 145px !important;

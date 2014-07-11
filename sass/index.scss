@@ -55,14 +55,14 @@ nav{
 		border-radius: 50%;
 		width: 13px;
 		height: 13px;
-		background-image: url("/images/nav-default.png");
+		background-image: url("images/nav-default.png");
 		background-repeat: no-repeat;
 		margin-bottom: 15px;
 		cursor: pointer;
 		opacity: .8;
 	}
 	.nav-active{
-		background-image: url("/images/nav-active.png");
+		background-image: url("images/nav-active.png");
 		background-repeat: no-repeat;
 	}
 }
@@ -298,7 +298,7 @@ section{
 		}
 	}
 	.smithsonian-bottom-logo{
-		background-image: url("/images/smithsonian-bottom-logo.png");
+		background-image: url("images/smithsonian-bottom-logo.png");
 		background-repeat: no-repeat;
 		width: 274px;
 		height: 72px;
@@ -307,7 +307,7 @@ section{
 	}
 }
 #fixed-footer{
-	background-image: url("/images/footer-dashes.png");
+	background-image: url("images/footer-dashes.png");
 	background-repeat: repeat-x;
 	text-align: center;
 	background-color: black;
@@ -383,14 +383,14 @@ section{
 	@each $number in 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14{
 
 	#smithsonian-#{$number}.lazy-background.inview{
-		background-image: url("/images/mobile/section-#{$number}.png") !important;
+		background-image: url("images/mobile/section-#{$number}.png") !important;
 	}
 }
 	#smithsonian-1{
-		background-image: url("/images/mobile/section-1.png");
+		background-image: url("images/mobile/section-1.png");
 	}
 	#smithsonian-2{
-		background-image: url("/images/mobile/section-2.png");
+		background-image: url("images/mobile/section-2.png");
 	}
 	#smithsonian-3{
 		background-image: url("/images/mobile/section-3.png");
@@ -401,10 +401,10 @@ section{
 		}
 	}
 	#smithsonian-4{
-		background-image: url("/images/mobile/section-4.png");
+		background-image: url("images/mobile/section-4.png");
 	}
 	#smithsonian-5{
-		background-image: url("/images/mobile/section-5.png");
+		background-image: url("images/mobile/section-5.png");
 		p{
 			font-size: 32px;
 			width: 295px !important;
@@ -412,10 +412,10 @@ section{
 		}
 	}
 	#smithsonian-6{
-		background-image: url("/images/mobile/section-6.png");
+		background-image: url("images/mobile/section-6.png");
 	}
 	#smithsonian-7{
-		background-image: url("/images/mobile/section-7.png");
+		background-image: url("images/mobile/section-7.png");
 		p{
 			font-size: 32px;
 			width: 295px !important;
@@ -423,10 +423,10 @@ section{
 		}
 	}
 	#smithsonian-8{
-		background-image: url("/images/mobile/section-8.png");
+		background-image: url("images/mobile/section-8.png");
 	}
 	#smithsonian-9{
-		background-image: url("/images/mobile/section-9.png");
+		background-image: url("images/mobile/section-9.png");
 		p{
 			font-size: 32px;
 			width: 295px !important;
@@ -434,10 +434,10 @@ section{
 		}
 	}
 	#smithsonian-10{
-		background-image: url("/images/mobile/section-10.png");
+		background-image: url("images/mobile/section-10.png");
 	}
 	#smithsonian-11{
-		background-image: url("/images/mobile/section-11.png");
+		background-image: url("images/mobile/section-11.png");
 		p{
 			font-size: 32px;
 			width: 295px !important;
@@ -445,10 +445,10 @@ section{
 		}
 	}
 	#smithsonian-12{
-		background-image: url("/images/mobile/section-12.png");
+		background-image: url("images/mobile/section-12.png");
 	}
 	#smithsonian-13{
-		background-image: url("/images/mobile/section-13.png");
+		background-image: url("images/mobile/section-13.png");
 		p{
 			font-size: 32px;
 			width: 295px !important;
@@ -456,7 +456,7 @@ section{
 		}
 	}
 	#smithsonian-14{
-		background-image: url("/images/mobile/section-14.png");
+		background-image: url("images/mobile/section-14.png");
 		.wonder-begins{
 			padding-top: 170px;
 			position: initial !important;
@@ -476,7 +476,7 @@ section{
 		}
 		.smithsonian-bottom-logo{
 			margin-left: auto !important;
-			background-image: url("/images/smithsonian-bottom-logo-mobile.png");
+			background-image: url("images/smithsonian-bottom-logo-mobile.png");
 			height: 34px;
 			width: 128px;
 			margin-top: 145px !important;
