@@ -160,12 +160,12 @@ $(document).ready(function(){
 
     var bg = 'url('+img.attr('src')+')';
 
-    function deploy(count, response, status, xhr){
+    function deploy(count, response, statusTxt, xhr){
       // var test=$("#smithsonian-"+count).css("background-image",bg);
       $("#smithsonian-"+count).css("background-image",bg);
-        // console.log(test);
+        console.log(statusTxt);
         if(count==14){
-          if(status=="success" || status==200 || status==304){
+          if(statusTxt=="success" || status==200 || status==304){
               disappear();
           }
         }
