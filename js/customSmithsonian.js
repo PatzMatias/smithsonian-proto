@@ -170,6 +170,7 @@ $(document).ready(function(){
 
     pageCount++;
     }
+    disappear();
   }
 
 preloader();
@@ -178,11 +179,6 @@ preloader();
       $('.spinner').fadeOut('slow');
       $('.preloader').delay(350).fadeOut('slow');
   }
-
-  $("source").each(function(){
-    $(this).load(disappear());
-  });
-
 
 
 });
