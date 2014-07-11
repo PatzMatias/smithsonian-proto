@@ -165,7 +165,9 @@ $(document).ready(function(){
       $("#smithsonian-"+count).css("background-image",bg);
         // console.log(test);
         if(count==14){
+          if(status=="200"){
               disappear();
+          }
         }
     }
 
