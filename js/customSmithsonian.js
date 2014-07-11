@@ -160,7 +160,7 @@ $(document).ready(function(){
 
     var bg = 'url('+img.attr('src')+')';
 
-    function deploy(count){
+    function deploy(count, response, status, xhr){
       // var test=$("#smithsonian-"+count).css("background-image",bg);
       $("#smithsonian-"+count).css("background-image",bg);
         // console.log(test);
