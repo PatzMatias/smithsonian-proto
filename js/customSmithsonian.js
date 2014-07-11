@@ -161,9 +161,9 @@ $(document).ready(function(){
     var bg = 'url('+img.attr('src')+')';
 
     function deploy(count){
-      var test=$("#smithsonian-"+count).css("background-image",bg);
+      // var test=$("#smithsonian-"+count).css("background-image",bg);
       $("#smithsonian-"+count).css("background-image",bg);
-        console.log(test);
+        // console.log(test);
     }
 
     img.load(deploy(pageCount));
