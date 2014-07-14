@@ -55,14 +55,14 @@ nav{
 		border-radius: 50%;
 		width: 13px;
 		height: 13px;
-		background-image: url("../images/nav-default.png");
+		background-image: url("images/nav-default.png");
 		background-repeat: no-repeat;
 		margin-bottom: 15px;
 		cursor: pointer;
 		opacity: .8;
 	}
 	.nav-active{
-		background-image: url("../images/nav-active.png");
+		background-image: url("images/nav-active.png");
 		background-repeat: no-repeat;
 	}
 }
@@ -285,7 +285,7 @@ section{
 		}
 	}
 	.smithsonian-bottom-logo{
-		background-image: url("../images/smithsonian-bottom-logo.png");
+		background-image: url("images/smithsonian-bottom-logo.png");
 		background-repeat: no-repeat;
 		width: 274px;
 		height: 72px;
@@ -294,7 +294,7 @@ section{
 	}
 }
 #fixed-footer{
-	background-image: url("../images/footer-dashes.png");
+	background-image: url("images/footer-dashes.png");
 	background-repeat: repeat-x;
 	text-align: center;
 	background-color: black;
