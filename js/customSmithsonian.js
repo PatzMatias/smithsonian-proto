@@ -173,3 +173,9 @@ $(document).ready(function(){
   $('.preloader').fadeIn("slow");
 
 });
+
+
+$(window).load(function(){
+      $('.spinner').fadeOut('slow');
+      $('.preloader').delay(350).fadeOut('slow');
+});
