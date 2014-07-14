@@ -1,6 +1,5 @@
 $(document).ready(function(){
-
-  var sectionCount = $("section").length;
+	var sectionCount = $("section").length;
 	count = 0;
 	while(count < sectionCount){
 		count++;
@@ -34,7 +33,7 @@ $(document).ready(function(){
       if(scrollTop < 200){
         $("#fixed-footer").hide('slide',{direction:'down'});
       }
-      if(scrollTop > 200 && scrollTop > 8799){
+      if(scrollTop > 200){
         $("#fixed-footer").show('slide',{direction:'down'});
       }
     });
@@ -50,7 +49,7 @@ $(document).ready(function(){
       scrollTop = $(window).scrollTop();
      
       //NAV SELECT
-      if(scrollTop <= 200){
+      /*if(scrollTop <= 200){
         $("nav a").removeClass("nav-active");
         $(".nav-1").addClass("nav-active");
       }
@@ -105,7 +104,7 @@ $(document).ready(function(){
       if(scrollTop >= 8879){
         $("nav a").removeClass("nav-active");
         $(".nav-14").addClass("nav-active");
-      }
+      }*/
       //CIRCLE ANIMATIONS
       if(scrollTop <= 500){
         $("#fixed-footer").hide('slide',{direction:'down'});
@@ -154,36 +153,23 @@ $(document).ready(function(){
     var pageCount=2;
     
     while(pageCount<=preloadcount){
-    var img=$("<img/>");
+      var img=$("<img/>");
 
-    img.attr("src",$("#smithsonian-"+pageCount).data("uri"));
+      img.attr("src",$("#smithsonian-"+pageCount).data("uri"));
 
-    var bg = 'url('+img.attr('src')+')';
+      var bg = 'url('+img.attr('src')+')';
 
-    function deploy(response, status, xhr, count){
-        if(count==14){
-          $("#smithsonian-"+count).css("background-image",bg);
-          if(status=="success" || status=="notmodified" || status=="timeout"){
-              disappear();
-          }
-        }
-        else{
-           $("#smithsonian-"+count).css("background-image",bg);
-        }
-    }
+      function deploy(count){
+        $("#smithsonian-"+count).css("background-image",bg);
+      }
 
-    img.load(deploy(response, status, xhr, pageCount));
+      img.load(deploy(pageCount));
 
-    pageCount++;
+      pageCount++;
     }
   }
+  preloader();
 
-preloader();
-
-  function disappear(){
-      $('.spinner').fadeOut('slow');
-      $('.preloader').delay(350).fadeOut('slow');
-  }
-
+  $('.preloader').fadeIn("slow");
 
 });
